@@ -31,7 +31,7 @@ btn.addEventListener("click",()=>{
         cont.append(done);
         cont.appendChild(note);
         cont.append(remove);
-
+        inp.value="";
         // check to do event
         done.addEventListener('click',()=>{
             if(done.checked){
@@ -62,7 +62,7 @@ btn.addEventListener("click",()=>{
         div.appendChild(note);
         div.append(remove);
         notec.append(div);
-
+        inp.value="";
         remove.addEventListener('click',()=>{
             div.remove();
         })
